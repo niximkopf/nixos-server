@@ -2,14 +2,23 @@
 
 {
   environment.systemPackages = with pkgs; [
-    git
+    nix-tree
+    wget
+    unzip
+    psmisc
+    nvd
+    eza
+    bat
+    ripgrep
+    fd
+    zoxide
+    fzf
+    ncdu
+    file
     htop
-    btop
-    kitty
-    nautilus
     neovim
     yt-dlp
     firefox
-    opencode
+    yazi
   ];
 }

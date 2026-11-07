@@ -5,8 +5,8 @@
     ./hardware-configuration.nix
 
     ../../modules/ssh.nix
-    ../../modules/wireguard.nix
-    ../../minecraft.nix
+    ../../modules/minecraft.nix
+    ../../modules/git.nix
 
     ../../system/nix.nix
     ../../system/packages.nix

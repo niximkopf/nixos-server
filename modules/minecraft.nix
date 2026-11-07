@@ -15,7 +15,7 @@
       # "fabric" = neueste Version. Für feste Version z. B.
       # pkgs.fabricServers.fabric-1_21_1 verwenden. Die Version muss
       # zu den Mods passen UND zu dem, was deine Mitspieler starten.
-      package = pkgs.fabricServers.fabric;
+      package = pkgs.fabricServers.fabric-26_2.override{jre_headless = pkgs.jdk25_headless;};
 
       # Arbeitsspeicher. Bei nur 4 GB im Rechner lieber -Xmx2G lassen,
       # bei 8 GB sind 3G möglich.
@@ -30,17 +30,17 @@
         view-distance = 16;
         simulation-distance = 8;
         online-mode = true;
-        white-list = true;
+        #white-list = true;
         enforce-whitelist = true;
       };
 
       # Erlaubte Spieler: Name = Konto-Kennung (UUID).
       # Die UUID findest du, indem du den Spielernamen auf einer
       # Seite wie namemc.com nachschlägst.
-      whitelist = {
+      #whitelist = {
         # SpielerName1 = "00000000-0000-0000-0000-000000000000";
         # SpielerName2 = "00000000-0000-0000-0000-000000000000";
-      };
+      #};
 
       # Rechte als Operator (Admin) für dich:
       # operators = {
