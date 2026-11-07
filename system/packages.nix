@@ -20,5 +20,6 @@
     yt-dlp
     firefox
     yazi
+
   ];
 }
