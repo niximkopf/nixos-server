@@ -5,9 +5,11 @@
     ./hardware-configuration.nix
 
     ../../modules/ssh.nix
-    ../../modules/jellyfin.nix
-    ../../modules/nextcloud.nix
-    ../../modules/wireguard.nix
+    ../../modules/git.nix
+    ../../modules/shell.nix
+    #../../modules/jellyfin.nix
+    #../../modules/nextcloud.nix
+    #../../modules/tailscale.nix
 
     ../../system/nix.nix
     ../../system/packages.nix

@@ -7,6 +7,7 @@
     ../../modules/ssh.nix
     ../../modules/minecraft.nix
     ../../modules/git.nix
+    ../../shell.nix
 
     ../../system/nix.nix
     ../../system/packages.nix
