@@ -3,10 +3,9 @@
 {
   programs.zsh = {
     enable                    = true;
-    autosuggestion.enable     = true;
+    autosuggestions.enable     = true;
     syntaxHighlighting.enable = true;
     enableCompletion          = true;
-    dotDir                    = config.home.homeDirectory;
 
     shellAliases = {
       ls      = "eza --icons";
@@ -22,7 +21,7 @@
       gc      = "git commit -m";
     };
 
-    initContent = ''
+    interactiveShellInit = ''
       eval "$(zoxide init zsh)"
     '';
   };

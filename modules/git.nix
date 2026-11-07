@@ -3,7 +3,7 @@
 {
   programs.git = {
     enable = true;
-    settings = {
+    config = {
       user = {
         Name = "niximkopf"; # Replace with your actual name
         Email = "niximkopf@proton.me"; # Replace with your actual email

@@ -1,8 +1,9 @@
-{ ... }:
+{ pkgs, ... }:
 
 {
   users.users.niximkopf = {
     isNormalUser = true;
+    shell        = pkgs.zsh;
     extraGroups = [ "wheel" "docker" ];
     openssh.authorizedKeys.keys = [
       "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJq+gY8Fnfsouebm2+x1RTgz8cSTQM4kBx88fKl/LXEN niximkopf@tpad490"
