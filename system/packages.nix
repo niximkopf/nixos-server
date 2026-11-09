@@ -15,11 +15,12 @@
     fzf
     ncdu
     file
-    htop
+    btop
     neovim
     yt-dlp
     firefox
     yazi
-
+    tmux
+    lm_sensors
   ];
 }

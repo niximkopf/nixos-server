@@ -6,8 +6,9 @@
 
     ../../modules/ssh.nix
     ../../modules/git.nix
+    ../../modules/nvim.nix
     ../../modules/shell.nix
-    #../../modules/jellyfin.nix
+    ../../modules/jellyfin.nix
     #../../modules/nextcloud.nix
     #../../modules/tailscale.nix
 
