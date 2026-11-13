@@ -16,6 +16,7 @@
     ../../system/packages.nix
     ../../system/timezone.nix
     ../../system/user.nix
+    ../../system/mount.nix
   ];
 
   networking = {
